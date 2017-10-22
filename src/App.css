@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
+html, body {
+  color: white;
+  font-family: 'Lato', Helvetiva, Arial, sans-serif;
+  height: 100%;
+}
+
+#root,
+[data-reactroot],
+.container {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  position: absolute;
+  left: 24px;
+  letter-spacing: 0.1em;
+  top: 24px;
+  z-index: 1;
+}
+
+.bgColor {
+  height: 100%;
+  position: absolute;
+  transition: all 1s;
+  width: 100%;
+  z-index: 0;
+}
+
+.date {
+  font-size: 70px;
+  font-weight: inherit;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
